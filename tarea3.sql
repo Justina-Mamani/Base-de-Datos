@@ -4,7 +4,7 @@ Values (8068922 , 'Ramiro' , 'Castillo Ochoa' , '1970-09-01'),
 		(8069762 , 'Luis' , 'Sanchez Ramirez' , '1985-06-30'),
 		(8169521 , 'Marcos' , 'Sanchez Cruz' , '1980-08-13'),
         (8196314 , 'Manuel' , 'Garcia Sanchez' , '1975-10-12'),
-        (8257896 , 'Juan' , 'Perez Rodriguez' , '975-05-26'),
+        (8257896 , 'Juan' , 'Perez Rodriguez' , '1975-05-26'),
         (8296354 , 'Pedro' , 'Lopez Gonzales' , '1996-01-17'),
         (8301163 , 'Paul' , 'Landaeta Flores' , '1991-03-25'),
         (8301879 , 'Pablo' , 'Gomez Luna' , '1990-07-17'),
@@ -14,11 +14,11 @@ Values (8068922 , 'Ramiro' , 'Castillo Ochoa' , '1970-09-01'),
 
 SELECT * FROM cuarentena.paciente;
 insert into Paciente
-values (1,8069762,'2020-03-17'),
-	   (2,8257896,'2020-03-17'),
-       (3,8069762,'2020-03-17'),
-	   (4,8257896,'2020-03-17'),
-       (5,8257896,'2020-03-17');
+values (1,8169521,'2020-03-17'),
+	   (2,8296354,'2020-03-17'),
+       (3,8301163,'2020-03-17'),
+	   (4,8301879,'2020-03-17'),
+       (5,8378963,'2020-03-17');
 
 
 SELECT * FROM cuarentena.consultorio;
